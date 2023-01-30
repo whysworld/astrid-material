@@ -197,6 +197,9 @@ const baseLightTheme = createTheme({
             color: `${ASTRID_HEADER_TITLE_COLOR} !important`,
             borderTop: 'none',
             borderBottom: 'none',
+            '& .Mui-active': {
+              color: 'inherit'
+            }
           },
         }
       }
