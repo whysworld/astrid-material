@@ -11,7 +11,7 @@ export const ASTRID_LISTITEM_LIST_HOVER_COLOR = '#17bebb60';
 export const ASTRID_HEADER_TITLE_COLOR = '#00a09e';
 export const ASTRID_NAVIGATION_BACKGROUND_COLOR = '#0064c8';
 
-export const ASTRID_HEADER_BACKGROUND_COLOR = '#e5eff8';
+export const ASTRID_HEADER_BACKGROUND_COLOR = '#fbfdff';
 //Summary Widget
 export const ASTRID_SUMMARY_ITEM1_COLOR = '#3cba0d';
 export const ASTRID_SUMMARY_ITEM2_COLOR = '#fc6666';
@@ -19,17 +19,11 @@ export const ASTRID_SUMMARY_ITEM2_COLOR = '#fc6666';
 const baseLightTheme = createTheme({
   typography: {
     fontFamily: [
-      'Quicksand,sans-serif',
-      '-apple-system',
-      'BlinkMacSystemFont',
-      '"Segoe UI"',
-      'Roboto',
-      '"Helvetica Neue"',
-      'Arial',
-      'sans-serif',
-      '"Apple Color Emoji"',
-      '"Segoe UI Emoji"',
-      '"Segoe UI Symbol"',
+      "Helvetica Neue", 
+      "Helvetica", 
+      "Roboto", 
+      "Arial", 
+      "sans-serif"
     ].join(','),
   },
   palette: {
@@ -92,7 +86,7 @@ const baseLightTheme = createTheme({
             "& .MuiSvgIcon-root": {
               color: 'white'
             }
-          }
+          },
         },
         paper: {
           background: ASTRID_NAVIGATION_BACKGROUND_COLOR,

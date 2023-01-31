@@ -21,23 +21,17 @@ export const ASTRID_SUMMARY_ITEM2_COLOR = '#fc6666';
 const baseDarkTheme = createTheme({
   typography: {
     fontFamily: [
-      'Quicksand,sans-serif',
-      '-apple-system',
-      'BlinkMacSystemFont',
-      '"Segoe UI"',
-      'Roboto',
-      '"Helvetica Neue"',
-      'Arial',
-      'sans-serif',
-      '"Apple Color Emoji"',
-      '"Segoe UI Emoji"',
-      '"Segoe UI Symbol"',
+      "Helvetica Neue",
+      "Helvetica",
+      "Roboto",
+      "Arial",
+      "sans-serif"
     ].join(','),
   },
   palette: {
     mode: 'dark',
     primary: {
-      main: ASTRID_LISTITEM_LIST_SELECTED_COLOR
+      main: ASTRID_HEADER_TITLE_COLOR
     },
     background: {
       default: ASTRID_BACKGROUND_DEFAULT_COLOR,
@@ -94,7 +88,7 @@ const baseDarkTheme = createTheme({
             "& .MuiSvgIcon-root": {
               color: 'white'
             }
-          }
+          },
         },
         paper: {
           background: ASTRID_NAVIGATION_BACKGROUND_COLOR,

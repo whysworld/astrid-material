@@ -142,13 +142,22 @@ export const Navigation = () => {
                 <ListItemIcon
                   sx={{
                     minWidth: 0,
-                    mr: open ? 3 : 'auto',
+                    mr: open ? '10px' : 'auto',
                     justifyContent: 'center',
                   }}
                 >
                   {item.icon}
                 </ListItemIcon>
-                <ListItemText primary={item.text} sx={{ opacity: open ? 1 : 0 }} />
+                <ListItemText
+                  primary={item.text}
+                  primaryTypographyProps={{
+                    fontWeight: 'bold',
+                    fontSize: '0.85rem'
+                  }}
+                  sx={{
+                    opacity: open ? 1 : 0,
+                  }}
+                />
               </ListItemButton>
             </ListItem>
           </Link>
