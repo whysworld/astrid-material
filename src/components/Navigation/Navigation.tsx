@@ -152,7 +152,7 @@ export const Navigation = () => {
                   primary={item.text}
                   primaryTypographyProps={{
                     fontWeight: 'bold',
-                    fontSize: '0.85rem'
+                    fontSize: '0.95rem'
                   }}
                   sx={{
                     opacity: open ? 1 : 0,

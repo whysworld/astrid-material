@@ -11,7 +11,7 @@ export const ASTRID_LISTITEM_LIST_HOVER_COLOR = '#17bebb60';
 export const ASTRID_HEADER_TITLE_COLOR = '#00a09e';
 export const ASTRID_NAVIGATION_BACKGROUND_COLOR = '#0064c8';
 
-export const ASTRID_HEADER_BACKGROUND_COLOR = '#fbfdff';
+export const ASTRID_HEADER_BACKGROUND_COLOR = '#e5eff8';
 //Summary Widget
 export const ASTRID_SUMMARY_ITEM1_COLOR = '#3cba0d';
 export const ASTRID_SUMMARY_ITEM2_COLOR = '#fc6666';
@@ -147,7 +147,8 @@ const baseLightTheme = createTheme({
     MuiCardHeader: {
       styleOverrides: {
         root: {
-          textAlign: 'left'
+          textAlign: 'left',
+          backgroundColor: ASTRID_TABLE_HEADER_BK_COLOR
         }
       }
     },

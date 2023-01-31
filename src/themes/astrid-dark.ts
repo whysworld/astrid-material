@@ -149,7 +149,8 @@ const baseDarkTheme = createTheme({
     MuiCardHeader: {
       styleOverrides: {
         root: {
-          textAlign: 'left'
+          textAlign: 'left',
+          backgroundColor: ASTRID_TABLE_HEADER_BK_COLOR
         }
       }
     },
